@@ -1,3 +1,6 @@
+/* 1. Import das fontes Google */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Montserrat:wght@400;600;700&display=swap');
+
 body {
     font-family: "Poppins", Arial, sans-serif;
     max-width: 900px;
@@ -106,3 +109,85 @@ footer {
         padding: 15px;
     }
 }
+/* --- DESAFIO 2 --- */
+
+.aviso {
+    background-color: #ffcccc;
+    color: #990000;
+    padding: 10px;
+    border-left: 4px solid #990000;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+div.caixa p {
+    font-style: italic;
+    color: #555;
+}
+
+.destaque {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.destaque:hover {
+    background-color: #f8bbd0;
+    color: #880e4f;
+}
+/*   DESAFIO 3     */
+
+/* 2. Paleta de cores*/
+:root {
+    --rosa-claro: #FFE5EC;
+    --rosa-medio: #FFB3C6;
+    --rosa-vivo: #FF8FAB;
+    --rosa-forte: #FB6F92;
+    --bordo: #590D22;
+}
+
+/* 3. Aplicar uma fonte para títulos e outra para textos */
+body, p, li {
+    font-family: "Lora", serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* 4. Usar 3 pesos diferentes */
+h1 {
+    font-weight: 700; /* mais forte */
+}
+
+h2 {
+    font-weight: 600; /* intermediário */
+}
+
+p {
+    font-weight: 400; /* normal */
+}
+
+/* 5. Novo esquema de cores */
+body {
+    background-color: var(--rosa-claro);
+}
+
+main section {
+    border: 1px solid var(--rosa-medio);
+}
+
+h2 {
+    color: var(--rosa-forte);
+    border-color: var(--rosa-medio);
+}
+
+/* 6. Hover para links mudando a cor */
+a {
+    color: var(--bordo);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--rosa-forte);
+}
+
+
